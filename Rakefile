@@ -1,7 +1,7 @@
+#to run rake task : rake admin:clean_tmp
 namespace :admin do
   desc "Interactively delete all files in /tmp"
   task :clean_tmp do
-    puts "rake task is working"
     Dir["/tmp/*"].each do |f|
       next unless File.file?(f)
       print "Delete #{f}? "
