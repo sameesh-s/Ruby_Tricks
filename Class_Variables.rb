@@ -1,4 +1,4 @@
-#Keeping track of car manufacturing statistics with calss variables
+#Keeping track of car manufacturing statistics with class variables
 class Car
   @@makes = []
   @@cars = {}
